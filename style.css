@@ -273,7 +273,7 @@ h2 {
 }
 
 .products li:last-child {
-    margin-left: 0;
+    margin-right: 0;
 }
 
 .products ul {
@@ -285,7 +285,6 @@ footer {
     padding-top: 25px;
     padding-left: 142px;
     padding-right: 22px;
-    border: 1px soild red;
 }
 
 footer p {
@@ -293,4 +292,25 @@ footer p {
     font-size: 11px;
     float: left;
     color: #333;
+}
+
+footer ul {
+    float: left;
+    vertical-align: middle;
+}
+
+footer li {
+    font-size: 11px;
+    float: left;
+    color: #333;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0;
+    border-right: 1px solid #E3E3E3;
+    padding-right: 5px;
+    line-height: 16px;
+}
+
+.copy {
+    margin-top: 16px;
 }
