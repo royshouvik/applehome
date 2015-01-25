@@ -169,18 +169,19 @@ li:hover {
 
 h1 {
     margin-top: 15px;
-    font-size: 68px;
+    font-size: 66px;
     color: #333;
     letter-spacing: -2px;
     line-height: 76px;
     text-align: center;
     cursor: pointer;
     font-weight: 300;
+    margin-bottom: 5px;
 }
 
 h2 {
-    margin-top: 10px;
-    font-size: 24px;
+    margin-top: 5px;
+    font-size: 22px;
     color: #333;
     letter-spacing: -0.8px;
     line-height: 32px;
@@ -194,6 +195,10 @@ h2 {
     color: #08c;
     width: 300px;
     margin: auto;
+}
+
+.gallary span {
+    font-size: 18px;
 }
 
 .gallary:hover {
@@ -216,12 +221,76 @@ h2 {
     left: 0;
     height: 100px;
     width: 100%;
-    top: 50%;
+    top: 48.5%;
     margin-top: 180px;
     background: rgba(237, 237, 237, 0);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(237, 237, 237, 0)), color-stop(25%, rgba(237, 237, 237, 0.7)), color-stop(100%, rgba(237, 237, 237, 0)));
     background: -webkit-linear-gradient(top, rgba(237, 237, 237, 0) 0%, rgba(237, 237, 237, 0.7) 25%, rgba(237, 237, 237, 0) 100%);
     background: linear-gradient(to bottom, rgba(237, 237, 237, 0) 0%, rgba(237, 237, 237, 0.7) 25%, rgba(237, 237, 237, 0) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#f4f4f4', GradientType=0);
-    margin-top: 208px
+    margin-top: 208px;
+}
+
+.ipad {
+    background-image: url(images/promo_change_large.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: 639px 200px;
+    width: 312px;
+    height: 200px;
+}
+
+.iphone {
+    background-image: url(images/promo_iphone6_large.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: 639px 200px;
+    width: 312px;
+    height: 200px;
+}
+
+.iwatch {
+    background-image: url(images/promo_watch_large.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: 639px 200px;
+    width: 312px;
+    height: 200px;
+}
+
+.imac {
+    background-image: url(images/promo_imac_large.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: 639px 200px;
+    width: 311px;
+    height: 200px;
+}
+
+.products li {
+    display: inline-block;
+    margin: 0 2px 2px 0;
+}
+
+.products li:last-child {
+    margin-left: 0;
+}
+
+.products ul {
+    margin-left: 0;
+    margin-top: 80px;
+}
+
+footer {
+    padding-top: 25px;
+    padding-left: 142px;
+    padding-right: 22px;
+    border: 1px soild red;
+}
+
+footer p {
+    width: 475px;
+    font-size: 11px;
+    float: left;
+    color: #333;
 }
